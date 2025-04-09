@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBA球迷会员网站 - 首页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <header class="container-fluid bg-primary text-white py-3">
+        <div class="container">
+            <h1>CBA球迷会员网站</h1>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">首页</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/user.html">用户页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/login.html">登录</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>最新赛事</h2>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>日期</th>
+                            <th>对阵</th>
+                            <th>时间</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>2025-04-04</td>
+                            <td>青岛国信制药vs 浙江稠州金租</td>
+                            <td>19:35</td>
+                        </tr>
+                        <tr>
+                            <td>2025-04-04</td>
+                            <td>新疆伊力特vs 南京头牌苏酒</td>
+                            <td>19:35</td>
+                        </tr>
+                        <tr>
+                            <td>2025-04-05</td>
+                            <td>广东东阳光vs 上海久事</td>
+                            <td>19:35</td>
+                        </tr>
+                        <tr>
+                            <td>2025-04-05</td>
+                            <td>山东高速vs 北京控股</td>
+                            <td>19:35</td>
+                        </tr>
+                        <tr>
+                            <td>2025-04-08</td>
+                            <td>北京控股vs 山东高速</td>
+                            <td>19:35</td>
+                        </tr>
+                        <tr>
+                            <td>2025-04-08</td>
+                            <td>上海久事vs 广东东阳光</td>
+                            <td>19:35</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-6">
+                <h2>新闻动态</h2>
+                <div id="newsCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="/news1.jpg" class="d-block w-100" alt="新闻1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>胡明轩率队闯入季后赛</h5>
+                                <p>CBA季后赛淘汰赛即将拉开帷幕</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="/news2.jpg" class="d-block w-100" alt="新闻2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>威姆斯遗憾止步</h5>
+                                <p>威姆斯未能率队闯入季后赛</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="container-fluid bg-primary text-white text-center py-3">
+        <p>&copy; 2025 CBA球迷会员网站</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
